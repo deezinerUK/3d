@@ -1,0 +1,18 @@
+.lrgImage{position:relative; overflow: hidden}
+.divOverlay{position:absolute; width: 100%; height: 100%;  text-align: center; color: white; padding-top: 20%; background-color: rgba(0,0,0,0.5)}
+
+@media (max-width: 990px) { 
+    .display-1{font-size: 60px}
+    .display-2{font-size: 50px}
+    .display-3{font-size: 40px}
+    h2{font-size: 30px}
+    h4{font-size: 20px}
+}
+
+@media (max-width: 575px) { 
+    .display-1{font-size: 40px}
+    .display-2{font-size: 35px}
+    .display-3{font-size: 30px}
+    h2{font-size: 20px}
+    h4{font-size: 16px}
+}
