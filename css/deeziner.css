@@ -1,6 +1,6 @@
 #homeBanner
 {min-height: 600px; 
-    background: url(/images/toytownrender.jpg) no-repeat center fixed; 
+    background: url(../images/toytownrender.jpg) no-repeat center fixed; 
     background-size: cover;}
 
 .lrgImage{position:relative; overflow: hidden}
