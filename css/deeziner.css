@@ -1,5 +1,27 @@
+#homeBanner
+{min-height: 600px; 
+    background: url(/images/toytownrender.jpg) no-repeat center fixed; 
+    background-size: cover;}
+
 .lrgImage{position:relative; overflow: hidden}
-.divOverlay{position:absolute; width: 100%; height: 100%;  text-align: center; color: white; padding-top: 20%; background-color: rgba(0,0,0,0.5)}
+
+.divOverlayBanner
+{position:absolute; 
+    width: 100%; 
+    height: 100%;  
+    text-align: center; 
+    color: white; 
+    padding-top: 100px; 
+    background-color: rgba(0,0,0,0.3)}
+
+.divOverlay
+{position:absolute; 
+    width: 100%; 
+    height: 100%;  
+    text-align: center; 
+    color: white; 
+    padding-top: 60px; 
+    background-color: rgba(0,0,0,0.3)}
 
 @media (max-width: 990px) { 
     .display-1{font-size: 60px}
